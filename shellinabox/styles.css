@@ -13,9 +13,13 @@
 }
 
 #vt100 #reconnect input {
-  padding:              1ex;
+  padding:              1ex 2ex;
   font-weight:          bold;
-  font-size:            x-large;
+  border-radius:        5px;
+  color:                #222222;
+  border-color:         #7f7f7f;
+  background-color:     inherit;
+  border-width:         1px;
 }
 
 #vt100 #cursize {
