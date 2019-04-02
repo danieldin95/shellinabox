@@ -1281,7 +1281,7 @@ VT100.prototype.resizer = function() {
                                   this.scale -
                                   this.reconnectBtn.clientWidth)/2 + 'px';
   this.reconnectBtn.style.top  = (this.terminalHeight*this.cursorHeight-
-                                  this.reconnectBtn.clientHeight)/2 + 'px';
+                                  this.reconnectBtn.clientHeight)/4 + 'px';
 
   // Send notification that the window size has been changed
   this.resized(this.terminalWidth, this.terminalHeight);
